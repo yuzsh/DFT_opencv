@@ -2,8 +2,8 @@
 //  DFT.cpp
 //  test00
 //
-//  Created by 湯澤拓矢 on 2015/06/14.
-//  Copyright (c) 2015年 湯澤拓矢. All rights reserved.
+//  Created by yuzataku on 2015/06/14.
+//  Copyright (c) 2015年 yuzataku. All rights reserved.
 //
 
 #include <opencv2/core/core.hpp>
