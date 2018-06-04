@@ -4,6 +4,9 @@ cmake_minimum_required(VERSION 2.8)
 # Define project name
 project(opencv_project)
 
+# Add C++11 support
+add_compile_options(-std=c++11)
+
 # Find OpenCV, you may need to set OpenCV_DIR variable
 # to the absolute path to the directory containing OpenCVConfig.cmake file
 # via the command line or GUI
@@ -24,7 +27,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.11")
 endif()
 
 # Declare the executable target built from your sources
-add_executable(opencv_example example.cpp)
+add_executable(opencv_example DFT.cpp)
 
 # Link your application with OpenCV libraries
 target_link_libraries(opencv_example ${OpenCV_LIBS})
